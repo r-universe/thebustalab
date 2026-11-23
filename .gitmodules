@@ -1,5 +1,12 @@
 [submodule ".registry"]
 	path = .registry
-	url = https://github.com/r-universe-org/cran-to-git
-	shallow = true
+	url = https://github.com/thebustalab/thebustalab.r-universe.dev
 	branch = HEAD
+[submodule "bustalab"]
+	path = bustalab
+	url = https://github.com/thebustalab/phylochemistry
+	subdir = bustalab
+[submodule "phylochemistry"]
+	path = phylochemistry
+	url = https://github.com/thebustalab/phylochemistry
+	subdir = phylochemistry
